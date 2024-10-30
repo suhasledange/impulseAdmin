@@ -13,7 +13,7 @@ const RTE = ({ name, control, label, defaultValue = "" }) => {
         rules={{ required: 'Content is required' }}
         render={({ field: { onChange } }) => (
           <Editor
-            apiKey='u0tjfaclqz8w80ynxvz9ma7kdxgadad380pynfincz207t9i'
+            apiKey=''
             initialValue={defaultValue}
             init={{
               initialValue: defaultValue,
