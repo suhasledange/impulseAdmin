@@ -13,7 +13,6 @@ const Home = () => {
     })
   },[])
 
-  console.log(blogs)
 
   if (blogs.length === 0) {
     return (

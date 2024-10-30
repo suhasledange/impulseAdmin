@@ -20,8 +20,6 @@ const Blog = () => {
 
   },[slug,navigate])
 
-  console.log(blog)
-
   const deleteBlog = () =>{
 
     if(confirm("Do You Want to delete ?")){
